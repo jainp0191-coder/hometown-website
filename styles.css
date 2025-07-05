@@ -1,0 +1,113 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-family: "Spinnaker", sans-serif;
+}
+
+#hero-section {
+    background-color: #F1FAEE;
+    background-image: url('images/raigarh-hero.jpg');
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #F1FAEE;
+}
+
+#hero-title {
+    background-color: #457B9D;
+    font-size: 50px;
+    margin: 0;
+    border-radius: 10px;
+    padding: 5px 15px;
+}
+
+#hero-subtitle {
+    background-color: #1D3557;
+    width: 600px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#activities-section {
+    background-color: #F1FAEE;
+    color: #1D3557;
+    padding-bottom: 20px;
+}
+
+#activities-section h3 {
+    color: #1D3557;
+    font-size: 30px;
+}
+
+.activities {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.activity {
+    width: 15%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px 10px;
+}
+
+.activity img {
+    border-radius: 50%;
+    height: 150px;
+    width: 90%;
+    object-fit: cover;
+}
+
+.activity h4 {
+    font-size: 20px;
+}
+
+#guide-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #A8DADC;
+    width: 400px;
+    margin: 20px auto 5px;
+    border-bottom: 5px solid #1D3557;
+    border-radius: 10px;
+    padding: 20px;
+    gap: 10px;
+    color: #1D3557;
+}
+
+#guide-section div p {
+    font-style: italic;
+    font-size: 16px;
+}
+
+#guide-section div h3 {
+    font-size: 25px;
+}
+
+#guide-section div h4 {
+    font-size: 20px;
+}
+
+#guide-section img {
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+}
